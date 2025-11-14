@@ -1,0 +1,60 @@
+# today = datetime.date.today()
+# print("Today's date:", today)
+
+
+import random 
+print("Random number between 1-10", random.randint(1,10))
+colors =["Red","Blue","Green"]
+print("Random color:",random.choice(colors))
+
+
+import datetime 
+today = datetime.date.today()
+print("today's date:", today)
+
+now = datetime.datetime.now()
+print("current time:", now)
+
+
+
+
+import sys 
+print("Python version:", sys.version)
+print("Platform:", sys.platform)
+
+
+
+import math
+print("Power nof 2'3",pow(2,3))
+print("Squareb root of 25:",math.sqrt(25))
+print("Cell of 4.3:", math.ceil(4.3))
+print("Floor of ",math.floor(4.8))
+ 
+ 
+ #task
+ #create a function take value from user 
+ #check of the value is positive or negative and print it 
+ #check if the value is divisible with  5 or not and print it
+ #check if the number is evem or odd
+ 
+# import random
+# a=print("Enter number:",random.randint)
+
+user_value = int(input("Enter value::"))
+def function(user_value):
+    if user_value<0:
+        print(f"value is negative{user_value}")
+    else:
+        print(f"Value is positive{user_value}")
+    if user_value//5:
+        print(f"Value is divisible by 5 answer is ={user_value//5}")
+    else:
+        print(f"Value is not divisible by 5{user_value//5}")
+    if user_value%2==0:
+        print(f"Value {user_value}is even ")
+    else:
+        print(f"Value{user_value}is ood")
+function(user_value)
+                
+        
+       
